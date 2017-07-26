@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+body{
+  font-family: 'Roboto Slab', serif;
+  color: #F0FFFF;
+  background-color: #111;
+}
+
+body.logo-background {
+  background: #000 url("img/index.jpg") 1em 1em no-repeat fixed;
+}
+a{
+  text-decoration: none;
+  color: #F0FFFF;
+}
+/******************************************************************************/
+/*************************************header***********************************/
+/*header{
+  padding: 0 1em 1em 1em;
+  clear: both;
+  height: 2em;
+}*/
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #F0FFFF;
+}
+
+.tag{
+  color: #8A2BE2 !important;
+}
+
+#sideNote{
+  margin-left: 1em;
+}
+
+#headerPic {
+  display: block;
+  margin: auto;
+}
+
+/******************************************************************************/
+/************************************footer************************************/
+footer.footer-index {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    background-color: #8A2BE2;
+}
+
+/******************************************************************************/
+/********************************formularios registro**************************/
+.inputForm {
+  margin-right: 5%;
+  color: #F0FFFF;
+}
+
+.indexInput {
+    border-radius: 5px;
+}
+
+.infoForm{
+  /*width: 15em;*/
+  float:center;
+}
+
+.loginForm{
+    float:right;
+    display: list-item;
+}
+
+.registerForm{
+    float: right;
+    text-align: center;
+    display: table-cell;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 1em;
+}
+
+.registerForm h1 {
+    margin: 0.5em;
+}
+
+.registerForm input {
+    display: block;
+    padding: 0.5em;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: middle;
+}
+
+.registerForm button {
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    background: #8A2BE2;
+    padding: 0.5em;
+    margin: 0.5em;
+    color: #FFF;
+}
+
+/******************************************************************************/
+/********************icono y nombre del perfil del usuario*********************/
+.profileForm{
+    float:right;
+    display: list-item;
+    margin-right: 10%;
+}
+#size{
+  width: 9em;
+  border: 0;
+}
+.profilepic{
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.profUser{
+  width: 30px; height: 30px;
+}
+.ItmProf{
+  float: right;
+  vertical-align: top;
+}
+
+.ItmProf a, .ItmProf strong {
+  float: left;
+}
+.profileButton {
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 10px;
+    background: black;
+    padding: 0.3em;
+    margin: 0.1em;
+    color: #FFF;
+}
+
+/******************************************************************************/
+/*********************************imagen indice********************************/
+.indexImg{
+    float:left;
+    padding-left: 5%;
+}
+
+/******************************************************************************/
+/*********************************nav info cuenta******************************/
+nav {
+    text-align: center;
+    padding: 0em;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    /*height: 60px;*/
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #8A2BE2;
+}
+
+/******************************************************************************/
+/**********************************listas**************************************/
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/******************************************************************************/
+/********************************seccion users web*****************************/
+.item{
+  /*vertical-align: top;*/
+  display: inline-block;
+  text-align: center;
+  margin: 0.4em 0;
+  /*margin: 5px 20px;*/
+}
+
+.item-post{
+  margin: 0.4em 0;
+  background-color: #8adf68;
+  border-radius: 5px;
+}
+
+#color{
+  float: right;
+  background-color: rgb(81, 200, 164);
+  border-radius: 5px;
+  width: 8.5em;
+}
+
+.item-post img {
+  float: left;
+  margin-right: 0.4em;
+  width: 50px;
+  height: 50px;
+}
+
+.item-post .caption p {
+  color: black;
+  width: 9em;
+}
+
+.caption{
+  display: block;
+}
+
+.caption p {
+  margin: 0;
+  margin-bottom: 0.3em;
+}
+
+.scroll{
+  overflow-y:auto;
+  max-height:6.2em;
+  border-bottom: 0.2px solid gray;
+  /*background-color:lightgray;*/
+}
+
+/******************************************************************************/
+/******************************aside users conectados**************************/
+.lateral{
+  border-left: 0.2px solid gray;
+}
+.sideScroll{
+  overflow-y:scroll;
+  height:100%;
+  border-bottom: 0.2px solid gray;
+}
+
+/******************************************************************************/
+/****************************entradas de los usuarios**************************/
+.post{
+  float: left;
+  width: 89%;
+}
+.muestra {
+  width: 9.4em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gallery{
+  /*width: 15em;*/
+  position: relative;
+    float: left;
+    width:  15em;
+    height: 15em;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+article.postPreview{
+  border: 0.2px solid gray;
+  height: 10.6em;
+  margin-top: 1em;
+  padding: 0.5em;
+  margin: 0.4em 1em;
+  /*float:left;
+  padding: 0.5em;*/
+}
+
+/******************************************************************************/
+/*******************************paginas de entradas****************************/
+.page{
+  display: inline-block;
+  margin-top: 2em;
+}
+
+.page a{
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+page a.active{
+  background-color: #8A2BE2;
+  color: white;
+  border-radius: 5px;
+}
+
+.page a:hover:not(.active) {
+    background-color: #4B0082;
+    border-radius: 5px;
+}
+
+/******************************************************************************/
+/********************************nuevas entradas*******************************/
+.entryTitle{
+  border: 0.2px solid gray;
+  height: 2.5em;
+  float: right;
+  margin-top: 0.4em;
+  background-color:#111;
+  margin-left: 1em;
+  text-align: center;
+  color: white;
+}
+.entryBody{
+  border: 0.2px solid gray;
+  height: 4em;
+  float: right;
+  margin-top: 0.3em;
+  background-color:#111;
+  text-align: center;
+  color: white;
+}
+
+.entryButton{
+  background-color:  rgb(81, 200, 164);
+  border: none;
+  color: white;
+  padding: 0.6em 1em;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9em;
+  margin: 0.4em 0.1em;
+  cursor: pointer;
+}
+
+.entryIcon{
+  border-radius: 5px;
+  float: left;
+  margin: 0.4em 0.4em;
+  width: 50px;
+  height: 50px;
+}
+.entryImage{
+  height: 15em;
+}
+
+.entryBorder{
+  border-bottom: 0.3px dotted #8A2BE2 ;
+}
+
+.entryPost img {
+  float: left;
+  margin-right: 0.4em;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.entryPost {
+  color: white;
+  width: 15em;
+  margin: 0.3em 0.3em;
+}
+#entryTitle{
+  color:rgb(28, 81, 177);
+}
